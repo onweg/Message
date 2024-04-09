@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		746A07872BC56EF5003A1557 /* MessageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A07862BC56EF5003A1557 /* MessageApp.swift */; };
-		746A07892BC56EF5003A1557 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A07882BC56EF5003A1557 /* ContentView.swift */; };
 		746A078B2BC56EF8003A1557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A078A2BC56EF8003A1557 /* Assets.xcassets */; };
 		746A078E2BC56EF8003A1557 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A078D2BC56EF8003A1557 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		746A07832BC56EF5003A1557 /* Message.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Message.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		746A07862BC56EF5003A1557 /* MessageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageApp.swift; sourceTree = "<group>"; };
-		746A07882BC56EF5003A1557 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		746A078A2BC56EF8003A1557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746A078D2BC56EF8003A1557 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +47,6 @@
 		746A07852BC56EF5003A1557 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				746A07862BC56EF5003A1557 /* MessageApp.swift */,
-				746A07882BC56EF5003A1557 /* ContentView.swift */,
 				746A078A2BC56EF8003A1557 /* Assets.xcassets */,
 				746A078C2BC56EF8003A1557 /* Preview Content */,
 			);
@@ -137,8 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746A07892BC56EF5003A1557 /* ContentView.swift in Sources */,
-				746A07872BC56EF5003A1557 /* MessageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
